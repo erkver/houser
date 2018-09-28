@@ -1,0 +1,57 @@
+.main-house-cont {
+  background-color: #DEDEDE;
+  display: flex;
+  height: 250px;
+  width: 98%;
+  margin: auto;
+}
+
+.img-cont {
+  width: 33%;
+  height: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.house-info-cont {
+  background-color: #DEDEDE;
+  width: 33%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.cost-info-cont {
+  background-color: #DEDEDE;
+  width: 33%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.house-info {
+  background-color: #DEDEDE;
+  width: 90%;
+  display: flex;
+  margin: auto;
+  font-size: 20px;
+}
+
+.cost-info {
+  background-color: #DEDEDE;
+  width: 90%;
+  display: flex;
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.delete-btn {
+  background-color: #DEDEDE;
+  font-size: 28px;
+  border: none;
+  display: flex;
+  height: 30px;
+  cursor: pointer;
+}

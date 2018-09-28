@@ -1,0 +1,39 @@
+.cancel-btn-cont {
+  background-color: #e5f4ec;
+  width: 75%;
+  height: 88vh;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.add-list-head {
+  background-color: #e5f4ec;
+  width: 90%;
+  display: flex;
+  align-content: center; 
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background-color: #FEC2c2;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: 24px;
+  margin: auto 0;
+  text-decoration: none;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  color: black;
+}
+
+.new-list-text {
+  background-color: #e5f4ec;
+  display: inline-flex;
+  align-content: space-between; 
+  justify-content: space-between;
+}

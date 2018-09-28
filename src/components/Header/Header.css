@@ -1,0 +1,15 @@
+.header-cont {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #519872;
+}
+
+.title-cont {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-color: #519872;
+  width: 40%;
+  margin-right: 60%;
+}

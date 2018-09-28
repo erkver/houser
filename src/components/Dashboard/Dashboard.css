@@ -1,0 +1,50 @@
+.dash-cont {
+  background-color: #e5f4ec;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.top-cont {
+  background-color: #e5f4ec;
+  width: 90%;
+  color: #3b5249;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 1px black;
+}
+
+.dash-txt {
+  background-color: #e5f4ec;
+}
+
+.new-prop-btn {
+  background-color: #8aea92;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 200px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+
+.listings-txt {
+  background-color: #e5f4ec;
+  font-weight: bold;
+  width: 85%;
+  display: flex;
+  margin-bottom: none;
+}
+
+.house-cont {
+  background-color: #DEDEDE;
+  margin: 0 5% 5% 5%;
+}

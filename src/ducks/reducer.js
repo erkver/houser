@@ -138,7 +138,7 @@ export default function reducer(state = initalState, action) {
         image_url: action.payload.image_url,
         mortgage_amt: action.payload,
         monthly_rent: action.payload
-      }
+      };
     default:
       return state;
   }

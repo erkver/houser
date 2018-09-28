@@ -1,28 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* colors: 
+#3b5249 
+#519872
+#afd4c0
+#e5f4ec
+#8aea92
+#FEC2c2
+#DEDEDE
+ */
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background-color: #afd4c0;
+}
+
+.step-cont {
+  background-color: #e5f4ec;
+  width: 60vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+input {
+  background-color: white;
+}
+
+h4 {
+  background-color: #e5f4ec;
+  display: flex;
+  width: 95%; 
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.next-btn {
+  background-color: #3b5249;
+  color: white;
+  height: 50px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90%;
+  text-decoration: none;
+}
+
+.submit-btn {
+  background-color: #8aea92;
+  color: black;
+  height: 75px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90%;
+  text-decoration: none;
+}
+
+
+.step {
+  background-color: #e5f4ec;
+}
+
+.prev-btn {
+  background-color: #3b5249;
+  color: white;
+  height: 60px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.prev-nxt-btn {
+  background-color: #e5f4ec;  
+  margin: auto;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-items: center;
+}
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}

@@ -10,8 +10,8 @@ module.exports = {
   },
   addHouse: (req, res, then) => {
     const db = req.app.get('db');
-    const { name, address, city, state, zip, image_url, mortgage_amt, monthly_rent } = req.body;
-    db.create_house([name, address, city, state, zip, image_url, mortgage_amt, monthly_rent]).then(house => {
+    const { name, address, city, st, zip, image_url, mortgage_amt, monthly_rent } = req.body;
+    db.create_house([name, address, city, st, zip, image_url, mortgage_amt, monthly_rent]).then(house => {
       return res.status(200).json(house);
     }).catch(err => {
       res.status(500).send({ errorMessage: "Something went wrong" });

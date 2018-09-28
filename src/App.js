@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import { BrowserRouter } from "react-router-dom";
 import routes from "./routes";
 import { Provider } from "react-redux";

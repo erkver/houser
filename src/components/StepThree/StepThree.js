@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-import { clearInputs } from "../ducks/reducer";
+import { clearInputs } from "../../ducks/reducer";
 import axios from "axios";
 
 class StepThree extends Component {
@@ -21,13 +21,12 @@ class StepThree extends Component {
   }
 
   render() {
-    // console.log(this.props);
+    console.log(this.props);
     const { mortgage_amt, monthly_rent } = this.state;
     const { name, address, city, st, zip, image_url } = this.props;
     return (
-      <div>
-        <h1>Add New Listing</h1>
-        <p>Recommended Rent $0</p>
+      <div className="step-cont">
+        <p className="step">Recommended Rent $0</p>
         <h4>Monthly Mortgage Amount</h4>
           <input 
             value={mortgage_amt}
@@ -38,8 +37,8 @@ class StepThree extends Component {
           value={monthly_rent}
           type="number"
           onChange={e => this.setState({monthly_rent: e.target.value })} />
-        <Link to="/wizard/step2">Previouse Step</Link>
-        <Link to="/" 
+        <Link to="/wizard/step2" className="prev-btn">Previous Step</Link>
+        <Link to="/" className="submit-btn"
           onClick={() => this.addHouse(name, address, city, st, zip, image_url, mortgage_amt, monthly_rent)}>Submit Property
         </Link>
       </div>
